@@ -14,7 +14,7 @@ let b = `my name is ${myName}`;
 //template literals are like F strings in Python and allow us to insert variables into Strings 
 console.log(b);
 
-// intergers 
+// intrgers 
 const c = 74; 
 
 //booleans 
@@ -24,9 +24,10 @@ let m = null ;
 /* const y;  */ 
 //undefined has no value unintentionally 
 // shift alt a to block a code or write a note/comment  */
-function add (x,y){
+/* function add (x,y){
    return x + y;
 }
 let x = add(5,15);
 console.log(x);
 //abstraction, taking code and saving it for reusability and readability 
+ */
