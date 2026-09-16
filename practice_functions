@@ -18,12 +18,10 @@
 // TODO 2: CALL your greetStudent function twice with two
 //         different names and observe the output.
 function greetStudent(name) {
-print 
+ return(`hello, ${name}! Welcome to AP CSP`)
 }
-
-greetStudent("Kimberley");
-greetStudent("Elivia");
-
+console.log(greetStudent("Kimberley"))
+console.log(greetStudent("Elivia"))
 // ----------------------------------------------------------
 // PART B: Functions That Return Values
 // ----------------------------------------------------------
@@ -43,8 +41,21 @@ greetStudent("Elivia");
 //         each result with a label.
 //         Example output:  4 is even: true
 
+function add(x,y){
+// everything written within the brackets is exclusive to the brackets 
+console.log(x+y)
+}
+add(10,14)
+add(15,27)
 
-
+function isValid(password){
+if(password.length > 6) {
+  console.log ("is valid");
+}else{
+  console.log("not valid");
+}
+}
+isValid ("password")
 // ----------------------------------------------------------
 // PART C: Putting It Together
 // ----------------------------------------------------------
