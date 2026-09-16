@@ -18,7 +18,7 @@
 // TODO 2: CALL your greetStudent function twice with two
 //         different names and observe the output.
 function greetStudent(name) {
- return(`hello, ${name}! Welcome to AP CSP`)
+ return(`Hello, ${name}! Welcome to AP CSP`)
 }
 console.log(greetStudent("Kimberley"))
 console.log(greetStudent("Elivia"))
