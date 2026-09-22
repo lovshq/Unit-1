@@ -31,3 +31,21 @@ let x = add(5,15);
 console.log(x);
 //abstraction, taking code and saving it for reusability and readability 
  */
+/* const age = 19;
+if (age > 65)
+{
+   console.log("Adult");
+} else { 
+   console.log("Child")
+} */
+
+const isLoggedIn = true; 
+const role = "admin";
+if (isLoggedIn === true) {
+   // you can write !== to say its not true 
+   if (role === "admin") {
+      console.log("Mod status");
+   } else {
+      console.log("cannot remove posts");
+   }
+}
