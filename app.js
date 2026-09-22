@@ -39,7 +39,7 @@ if (age > 65)
    console.log("Child")
 } */
 
-const isLoggedIn = true; 
+/* const isLoggedIn = true; 
 const role = "admin";
 if (isLoggedIn === true) {
    // you can write !== to say its not true 
@@ -48,4 +48,35 @@ if (isLoggedIn === true) {
    } else {
       console.log("cannot remove posts");
    }
+} */
+/* let age =35;
+let  citizen = true; 
+if (age >= 35 && citizen === true){
+   console.log("Run for President");
 }
+
+if (havekey || isMagic){
+   console.log("open door");
+} */
+
+function classifyNumber(num) {
+  if (num === 0) {
+     return("zero")
+   } else if (num > 0 && num % 2 === 0) {
+    return("positive even")
+   } else if (num > 0 && num % 2 !== 0) {
+     return("positive odd")
+   } else if (num < 0 && num % 2 === 0) {
+    return("negative even")
+   } else if (num < 0 && num % 2 !== 0){
+     return("negative odd")
+   }
+
+}
+
+
+console.log(classifyNumber(0)); // "zero"
+console.log(classifyNumber(4)); // "positive even"
+console.log(classifyNumber(7)); // "positive odd"
+console.log(classifyNumber(-4)); // "negative even"
+console.log(classifyNumber(-7)); // "negative odd"
