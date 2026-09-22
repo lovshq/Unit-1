@@ -52,10 +52,13 @@ function isValid(password){
 if(password.length > 6) {
   console.log ("is valid");
 }else{
-  console.log("not valid");
+  console.log("not valid")
+
 }
 }
 isValid ("password")
+
+
 // ----------------------------------------------------------
 // PART C: Putting It Together
 // ----------------------------------------------------------
