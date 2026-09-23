@@ -59,6 +59,14 @@ if (havekey || isMagic){
    console.log("open door");
 } */
 
+
+
+
+
+
+// Problem 1 Booleans 
+
+
 function classifyNumber(num) {
   if (num === 0) {
      return("zero")
@@ -74,9 +82,115 @@ function classifyNumber(num) {
 
 }
 
-
 console.log(classifyNumber(0)); // "zero"
 console.log(classifyNumber(4)); // "positive even"
 console.log(classifyNumber(7)); // "positive odd"
 console.log(classifyNumber(-4)); // "negative even"
 console.log(classifyNumber(-7)); // "negative odd"
+
+
+// Problem 2 Booleans 
+
+
+function getLetterGrade(score) {
+   if(num)
+}
+
+
+
+// Problem 1 Loops 
+
+function getNumbersInRange(start, end){
+
+
+}
+
+console.log(getNumbersInRange(1, 5));  // [1, 2, 3, 4, 5]
+console.log(getNumbersInRange(10, 10)); // [10]
+console.log(getNumbersInRange(3, 8));  // [3, 4, 5, 6, 7, 8]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* let x = 100; 
+//for (let i = o;i < 4; i++){
+//  x = x - i; 
+// } 
+   /* console.log(x); */
+
+/* while (x > 0) {
+   x = x - 10; 
+   console.log(x);
+}
+
+// array 
+const students = ["Amelia", "Kim"]
+students.push("Bella") // adds to the list 
+console.log(students[students.length - 1]);
+
+
+if (students.includes("Kim")) { 
+   console.log("We found Kimberley?");
+} */
+
+/* for (let i = 0; i < students.length; i++){
+   if(students[i]==="Kim"){
+      console.log(students[i], "We have found Kimberley");
+   }
+} */
+/* 
+   students.forEach((student)=> {
+   if (student === "Kim"){
+      console.log(student, "We have found Kimberley");
+      }
+   }); */
