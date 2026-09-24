@@ -89,15 +89,6 @@ console.log(classifyNumber(-4)); // "negative even"
 console.log(classifyNumber(-7)); // "negative odd"
 
 
-// Problem 2 Booleans 
-
-
-function getLetterGrade(score) {
-   if(num)
-}
-
-
-
 // Problem 1 Loops 
 
 function getNumbersInRange(start, end){
@@ -108,56 +99,6 @@ function getNumbersInRange(start, end){
 console.log(getNumbersInRange(1, 5));  // [1, 2, 3, 4, 5]
 console.log(getNumbersInRange(10, 10)); // [10]
 console.log(getNumbersInRange(3, 8));  // [3, 4, 5, 6, 7, 8]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
