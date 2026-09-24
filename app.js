@@ -66,19 +66,18 @@ if (havekey || isMagic){
 
 // Problem 1 Booleans 
 
-
 function classifyNumber(num) {
   if (num === 0) {
-     return("zero")
-   } else if (num > 0 && num % 2 === 0) {
-    return("positive even")
-   } else if (num > 0 && num % 2 !== 0) {
-     return("positive odd")
-   } else if (num < 0 && num % 2 === 0) {
+   return("zero")
+  } else if (num > 0 && num % 2 === 0) {
+   return("positive even")
+  } else if (num > 0 && num % 2 !== 0) {
+    return("positive odd")
+  } else if (num < 0 && num % 2 === 0) {
     return("negative even")
-   } else if (num < 0 && num % 2 !== 0){
-     return("negative odd")
-   }
+  } else if (num < 0 && num % 2 !== 0){
+    return("negative odd")
+  }
 
 }
 
@@ -87,20 +86,6 @@ console.log(classifyNumber(4)); // "positive even"
 console.log(classifyNumber(7)); // "positive odd"
 console.log(classifyNumber(-4)); // "negative even"
 console.log(classifyNumber(-7)); // "negative odd"
-
-
-// Problem 1 Loops 
-
-function getNumbersInRange(start, end){
-
-
-}
-
-console.log(getNumbersInRange(1, 5));  // [1, 2, 3, 4, 5]
-console.log(getNumbersInRange(10, 10)); // [10]
-console.log(getNumbersInRange(3, 8));  // [3, 4, 5, 6, 7, 8]
-
-
 
 
 /* let x = 100; 
@@ -114,24 +99,23 @@ console.log(getNumbersInRange(3, 8));  // [3, 4, 5, 6, 7, 8]
    console.log(x);
 }
 
-// array 
+// array
+
 const students = ["Amelia", "Kim"]
 students.push("Bella") // adds to the list 
 console.log(students[students.length - 1]);
 
-
 if (students.includes("Kim")) { 
    console.log("We found Kimberley?");
-} */
+} 
 
-/* for (let i = 0; i < students.length; i++){
+for (let i = 0; i < students.length; i++){
    if(students[i]==="Kim"){
       console.log(students[i], "We have found Kimberley");
    }
-} */
-/* 
+}
    students.forEach((student)=> {
    if (student === "Kim"){
       console.log(student, "We have found Kimberley");
       }
-   }); */
+   });
