@@ -93,13 +93,13 @@ console.log(classifyNumber(-7)); // "negative odd"
 //  x = x - i; 
 // } 
    /* console.log(x); */
-
-/* while (x > 0) {
+/* 
+while (x > 0) {
    x = x - 10; 
    console.log(x);
 }
 
-// array
+//  array
 
 const students = ["Amelia", "Kim"]
 students.push("Bella") // adds to the list 
@@ -116,6 +116,22 @@ for (let i = 0; i < students.length; i++){
 }
    students.forEach((student)=> {
    if (student === "Kim"){
-      console.log(student, "We have found Kimberley");
-      }
-   });
+   console.log(student, "We have found Kimberley");
+}
+
+}
+ */
+/* Problem 1: Range Builder  */
+
+function getNumbersInRange(start , end) {
+   const result = []
+   for(let i = start; i <= end; i++) {
+   result.push(i) 
+   }
+console.log(result)
+} 
+getNumbersInRange(1, 5);  // [1, 2, 3, 4, 5]
+getNumbersInRange(10, 10); // [10]
+getNumbersInRange(3, 8);  // [3, 4, 5, 6, 7, 8]
+
+
