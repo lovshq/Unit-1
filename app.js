@@ -135,3 +135,13 @@ getNumbersInRange(10, 10); // [10]
 getNumbersInRange(3, 8);  // [3, 4, 5, 6, 7, 8]
 
 
+// Problem 2: Sum a Range 
+
+function sumRange(start, end) {
+  // TODO: your code here
+
+}
+
+console.log(sumRange(1, 5));   // 15
+console.log(sumRange(1, 100)); // 5050
+console.log(sumRange(4, 4));   // 4
