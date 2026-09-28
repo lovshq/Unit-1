@@ -138,10 +138,25 @@ getNumbersInRange(3, 8);  // [3, 4, 5, 6, 7, 8]
 // Problem 2: Sum a Range 
 
 function sumRange(start, end) {
-  // TODO: your code here
+let total = 0 
+for (let i = start; i <=end; i++) {
+   total += i 
+}
+return(total)
+}
+console.log(sumRange(1,5)); 
+console.log(sumRange(1, 100)); // 5050
+console.log(sumRange(4, 4));   // 4
+// Problem 3 Countdown 
+
+function countdown(n) {
+while (n > 0) { 
+   console.log("countdown: " + n); 
+   n--; 
+}
 
 }
 
-console.log(sumRange(1, 5));   // 15
-console.log(sumRange(1, 100)); // 5050
-console.log(sumRange(4, 4));   // 4
+console.log(countdown(5)); // [5, 4, 3, 2, 1]
+console.log(countdown(1)); // [1]
+console.log(countdown(8)); // [8, 7, 6, 5, 4, 3, 2, 1]
