@@ -147,6 +147,7 @@ return(total)
 console.log(sumRange(1,5)); 
 console.log(sumRange(1, 100)); // 5050
 console.log(sumRange(4, 4));   // 4
+
 // Problem 3 Countdown 
 
 function countdown(n) {
@@ -160,3 +161,18 @@ while (n > 0) {
 console.log(countdown(5)); // [5, 4, 3, 2, 1]
 console.log(countdown(1)); // [1]
 console.log(countdown(8)); // [8, 7, 6, 5, 4, 3, 2, 1]
+
+
+// Problem 4 Count the Vowels
+
+function countVowels(str) {
+
+
+}
+
+console.log(countVowels("hello"));      // 2
+console.log(countVowels("javascript")); // 3
+console.log(countVowels("xyz"));        // 0
+console.log(countVowels("aeiou"));      // 5
+
+
