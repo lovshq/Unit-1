@@ -99,7 +99,7 @@ while (x > 0) {
    console.log(x);
 }
 
-//  array
+//  /* array
 
 const students = ["Amelia", "Kim"]
 students.push("Bella") // adds to the list 
@@ -123,7 +123,7 @@ for (let i = 0; i < students.length; i++){
  */
 /* Problem 1: Range Builder  */
 
-function getNumbersInRange(start , end) {
+/* function getNumbersInRange(start , end) {
    const result = []
    for(let i = start; i <= end; i++) {
    result.push(i) 
@@ -176,3 +176,48 @@ console.log(countVowels("xyz"));        // 0
 console.log(countVowels("aeiou"));      // 5
 
 
+function slot (q,am,bm,cm){
+plays = 0 
+while (0 < q < 1000) {
+
+   
+}
+
+
+
+
+
+} */
+
+function slotMachine (q,fm,sm,tm){
+let plays = 0 
+while (0<q)
+   q -= 1;
+   fm += 1;
+   plays += 1; 
+   if (fm % 35 === 0){
+      q += 30; 
+   }  if (sm % 100 === 0){
+      q += 60;
+   } if (tm % 10 === 0){
+      q += 9;
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
