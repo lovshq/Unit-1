@@ -65,7 +65,7 @@ if (havekey || isMagic){
 
 
 // Problem 1 Booleans 
-
+/* 
 function classifyNumber(num) {
   if (num === 0) {
    return("zero")
@@ -85,7 +85,7 @@ console.log(classifyNumber(0)); // "zero"
 console.log(classifyNumber(4)); // "positive even"
 console.log(classifyNumber(7)); // "positive odd"
 console.log(classifyNumber(-4)); // "negative even"
-console.log(classifyNumber(-7)); // "negative odd"
+console.log(classifyNumber(-7)); // "negative odd" */
 
 
 /* let x = 100; 
@@ -189,35 +189,38 @@ while (0 < q < 1000) {
 
 } */
 
-function slotMachine (q,fm,sm,tm){
-let plays = 0 
-while (0<q)
-   q -= 1;
-   fm += 1;
-   plays += 1; 
-   if (fm % 35 === 0){
-      q += 30; 
-   }  if (sm % 100 === 0){
-      q += 60;
-   } if (tm % 10 === 0){
-      q += 9;
-   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+function slotMachine(q, sm1, sm2, sm3) {
+    let plays = 0;
+    let currentMachine = 0;
+    while (q > 0) {
+              q--;
+        sm1++;
+        plays++;
+        if (sm1 === 35) {
+            q += 30;
+            sm1 = 0;
+        }
+        if (q === 0) break;
+        q--;
+        sm2++;
+        plays++;
+        if (sm2 === 100) {
+            q += 60;
+            sm2 = 0;
+        }
+        if (q === 0) break;        
+        q--;
+        sm3++;
+        plays++;
+        if (sm3 === 10) {
+            q += 9;
+            sm3 = 0;
+        }
+        if (q === 0) break;
+    }
+    
+    return plays;
 }
+
+let totalPlays = slotMachine(48, 3, 10, 4);
+console.log(`Martha plays ${totalPlays} times before going broke.`);
