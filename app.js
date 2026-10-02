@@ -179,17 +179,10 @@ console.log(countVowels("aeiou"));      // 5
 function slot (q,am,bm,cm){
 plays = 0 
 while (0 < q < 1000) {
-
-   
 }
-
-
-
-
-
 } */
 
-function slotMachine(q, sm1, sm2, sm3) {
+/* function slotMachine(q, sm1, sm2, sm3) {
     let plays = 0;
     let currentMachine = 0;
     while (q > 0) {
@@ -223,4 +216,4 @@ function slotMachine(q, sm1, sm2, sm3) {
 }
 
 let totalPlays = slotMachine(48, 3, 10, 4);
-console.log(`Martha plays ${totalPlays} times before going broke.`);
+console.log(`Martha plays ${totalPlays} times before going broke.`); */
