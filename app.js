@@ -217,3 +217,19 @@ while (0 < q < 1000) {
 
 let totalPlays = slotMachine(48, 3, 10, 4);
 console.log(`Martha plays ${totalPlays} times before going broke.`); */
+
+
+
+// Harry Potter Movies 
+
+function elder(n, start, duels) {
+   let owner = start; 
+   let owners = 1; 
+   for(let i = 0; i < n; i++){
+      if (duels [0][1] === owner){
+         owner = duels[0][0]; 
+      }
+   }
+}
+
+elder(3, "A", ["BA", "CB", "DA"]);
