@@ -226,10 +226,12 @@ function elder(n, start, duels) {
    let owner = start; 
    let owners = 1; 
    for(let i = 0; i < n; i++){
-      if (duels [0][1] === owner){
-         owner = duels[0][0]; 
+      if (duels [i][1] === owner){
+         owner = duels[i][0]; 
+         owners++;
       }
    }
+   console.log(owner, owners); 
 }
 
 elder(3, "A", ["BA", "CB", "DA"]);
