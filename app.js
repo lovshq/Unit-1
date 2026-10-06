@@ -1,4 +1,4 @@
-/* let x = 5:
+/* /* let x = 5:
 //let can change 
 x = 9; 
 const y = 10; 
@@ -222,7 +222,7 @@ console.log(`Martha plays ${totalPlays} times before going broke.`); */
 
 // Harry Potter Movies 
 
-function elder(n, start, duels) {
+/* function elder(n, start, duels) {
    let owner = start; 
    let owners = 1; 
    for(let i = 0; i < n; i++){
@@ -234,4 +234,10 @@ function elder(n, start, duels) {
    console.log(owner, owners); 
 }
 
-elder(3, "A", ["BA", "CB", "DA"]);
+elder(3, "A", ["BA", "CB", "DA"]); */
+
+// Tarifa
+function megabytes(X,N) {
+let months = N 
+let megabytes = X
+}
