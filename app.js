@@ -237,8 +237,13 @@ console.log(`Martha plays ${totalPlays} times before going broke.`); */
 elder(3, "A", ["BA", "CB", "DA"]); */
 
 // Tarifa
-function megabytes(X,N) {
+
+
+function megabytes(X,N,firstmonths) {
 let months = N 
 let megabytes = X
+for (let i = 0; i < firstmonths; i++){
+
+}
 }
 console.log (megabytes)
