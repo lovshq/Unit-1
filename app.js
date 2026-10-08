@@ -241,3 +241,4 @@ function megabytes(X,N) {
 let months = N 
 let megabytes = X
 }
+console.log (megabytes)
