@@ -240,10 +240,10 @@ elder(3, "A", ["BA", "CB", "DA"]); */
 
 
 function megabytes(X,N,firstmonths) {
-let months = N 
-let megabytes = X
-for (let i = 0; i < firstmonths; i++){
+   let months = N 
+   let megabytes = X
+   for (let i = 0; i < firstmonths.length; i++){
 
-}
+   }
 }
 console.log (megabytes)
