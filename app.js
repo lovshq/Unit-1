@@ -238,7 +238,7 @@ elder(3, "A", ["BA", "CB", "DA"]); */
 
 // Tarifa
 
-
+/* 
 function megabytes(X,N,firstmonths) {
    let months = N 
    let megabytes = X
@@ -247,3 +247,54 @@ function megabytes(X,N,firstmonths) {
    }
 }
 console.log (megabytes)
+
+ */
+
+// Preview 
+
+/* function filter (array, category){
+
+
+}
+function addToCart (cart, item)
+
+
+ */
+
+// PROBLEM 1 — Reading Object Properties
+// =================================================================
+// You are given this movie object. Write code below to:
+//   1. Print the title
+//   2. Print tew property `watched` set to true
+//   5. Print ehe director
+//   3. Print true/false: is the runtime over 120 minutes?
+//   4. Add a nach key-value pair using console.log("Title:", movie.title) style
+
+const movie = {
+  title: "Interstellar",
+  year: 2014,
+  director: "Christopher Nolan",
+  rating: "PG-13",
+  runtime: 169,
+};
+
+// TODO 1: Print the movie title   
+// console.log(...)
+
+// TODO 2: Print the director's name            
+// console.log(...)
+
+// TODO 3: Print true/false — is runtime over 120?
+// console.log(...)
+
+// TODO 4: Add a `watched` property set to true
+// movie.??? = ???
+
+// TODO 5: Print each key-value pair
+// console.log("Title:", ...)
+// console.log("Year:", ...)
+// console.log("Director:", ...)
+// console.log("Rating:", ...)
+// console.log("Runtime:", ...)
+// console.log("Watched:", ...)
+
