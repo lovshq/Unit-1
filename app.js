@@ -298,3 +298,44 @@ const movie = {
 // console.log("Runtime:", ...)
 // console.log("Watched:", ...)
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// project 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
