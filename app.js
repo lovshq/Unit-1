@@ -320,12 +320,22 @@ const movie = {
 // project 
 
 
-// 1 gt3rs , m4g82, corvette, boxer, saupra v6, kawasaki ninja zx - 6RR 
-// Koenigsegg jesko absolut , supra mk3 , mazda mx-5 , bmw m2, bmw m3, toyota gr 86, nissan 350x , 720s spider
+//kawasaki ninja zx - 6RR 
+//supra mk3 , mazda mx-5 , bmw m2, bmw m3, toyota gr 86, nissan 350x , 720s spider
 // 780s spider, Ninja h2r , bmw m8 , toyota ft1 , bmw z4 , bmw 1000 RR 
 
 
+let array = [
+{ name: "porsche 911 gt3rs" , price: 224000 },
+{ name: "bmw m4g82" , price: 98000 },
+{ name: "chevrolet corvette c8" , price: 122510 }, 
+{ name: "porsche he 718 boxster" , price: 80000 }, 
+{ name: "toyota supra v6" , price: 61450 }, 
+{ name: "koenigsegg jesko absolut" , price: 5500000 },
+{ name: "supra mk3" , price: 30000 }, 
+{ name: }
 
+]
 
 
 
