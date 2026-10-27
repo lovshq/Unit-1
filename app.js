@@ -281,18 +281,32 @@ const movie = {
 // TODO 1: Print the movie title   
 // console.log(...)
 
+
+
 // TODO 2: Print the director's name            
+
 // console.log(...)
+
+
 
 // TODO 3: Print true/false — is runtime over 120?
+
 // console.log(...)
 
+
+
 // TODO 4: Add a `watched` property set to true
+
 // movie.??? = ???
 
+
+
 // TODO 5: Print each key-value pair
+
 // console.log("Title:", ...)
+
 // console.log("Year:", ...)
+
 // console.log("Director:", ...)
 // console.log("Rating:", ...)
 // console.log("Runtime:", ...)
@@ -333,7 +347,7 @@ let array = [
 { name: "toyota supra v6" , price: 61450 }, 
 { name: "koenigsegg jesko absolut" , price: 5500000 },
 { name: "supra mk3" , price: 30000 }, 
-{ name: }
+{ name: "mclaren 720s spider"}
 
 ]
 
