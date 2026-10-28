@@ -1,96 +1,106 @@
-body{
-    background-color: aliceblue;
+body {
+  background-color: aliceblue;
 }
 
 html,
 body,
 * {
-    font-size: 10px;
-    box-sizing: border-box;
-    margin: 0; 
-    padding: 0;
+  font-size: 10px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    background-color: antiquewhite;
-    font-family: ui-sans-serif, system-ui,sans-serif;
-    font-weight:400;
-    font-style: normal;
+  background-color: antiquewhite;
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 div {
-    height: 55rem;
-    width: 30rem;
-    margin: 0.5rem;
-    background-color: rgb(240, 190, 188);
-    padding: 1rem;
+  height: 55rem;
+  width: 30rem;
+  margin: 0.5rem;
+  background-color: rgb(240, 190, 188);
+  padding: 1rem;
 }
 
 .hero {
-display: flex;
-justify-content: center;
-background.image: linear-gradient(rgba(8,84,130,.8), rgba(4,70,115,0.8));
-background-size: cover;
-background-position: center;
-background-attachment: fixed;
-height: 100vh;
-color:#ffffff;
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(
+    rgba(8, 84, 130, 0.8),
+    rgba(4, 70, 115, 0.8)
+  );
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+  color: #ffffff;
 }
 
-.hero-content{
-    width:70rem;
-    padding:2rem;
+.hero-content {
+  width: 70rem;
+  padding: 2rem;
 }
-.hero h1{
-    font-size: 7rem;
-    margin-bottom: 2rem; 
-    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.4)
+.hero h1 {
+  font-size: 7rem;
+  margin-bottom: 2rem;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
 }
 
-.hero p{
-    font-size: 2.4rem;
-    margin-bottom: 3rem;
-    text-shadow: 0 2px 6px rgba(0, 0, 0, 0.4)
+.hero p {
+  font-size: 2.4rem;
+  margin-bottom: 3rem;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
 }
 .btn {
-    display:inline-block;
-    padding: 1.4rem 3.2rem;
-    font-size: 2rem;
-    color:#ffffff;
-    background-color: #ff4f9a;
-    text-decoration: none;
+  display: inline-block;
+  padding: 1.4rem 3.2rem;
+  font-size: 2rem;
+  color: #ffffff;
+  background-color: #ff4f9a;
+  text-decoration: none;
 }
-.card{
-    background-color: #ffffff;
-    border: radius
+.card {
+  background-color: #ffffff;
+  border: radius;
 }
 #test {
-    background-color: beige
+  background-color: beige;
 }
-.cardtitle{
-    text-align: center;
-    font-size: 1.8rem;
-    font-weight: 600;
+.cardtitle {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 600;
 }
-.card.img{
-    width: 100%;
-    height: 50%;
-    object-fit: cover;
-    border-radius:0.8rem;
+.card.img {
+  width: 100%;
+  height: 50%;
+  object-fit: cover;
+  border-radius: 0.8rem;
 }
 
 .card-btn {
-    height: 4rem;
-    padding: 0 1.6rem;
-    background-color: #ffffff;
-    color: black;
-    border: 1px solid;
-    border-radius: 0.4rem;
-    font-size: 1.4rem;
-    font-weight:600px;
-    cursor: pointer;
-    transition: all 0.3s;
+  height: 4rem;
+  padding: 0 1.6rem;
+  background-color: #ffffff;
+  color: black;
+  border: 1px solid;
+  border-radius: 0.4rem;
+  font-size: 1.4rem;
+  font-weight: 600px;
+  cursor: pointer;
+  transition: all 0.3s;
 }
 
 .card-btn:hover {
-    background-color: azure;
+  background-color: azure;
+}
+.container {
+  margin: 5rem auto;
+  justify-content: space-around;
+  width: 80vw;
+  display: flex;
+  flex-wrap: wrap;
 }
