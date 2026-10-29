@@ -347,7 +347,7 @@ let array = [
 { name: "toyota supra v6" , price: 61450 }, 
 { name: "koenigsegg jesko absolut" , price: 5500000 },
 { name: "supra mk3" , price: 30000 }, 
-{ name: "mclaren 720s spider"}
+{ name: "mclaren 720s spider" ,}
 
 ]
 
