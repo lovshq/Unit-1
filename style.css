@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap');
 
-html,
 body {
   font-size: 10px;
   box-sizing: border-box;
@@ -73,6 +71,7 @@ div {
   margin: 2.5rem 5rem;
   border-radius: 0.8rem;
   align-items: center;
+  font-family: "Redaction", serif;
 }
 #test {
   background-color: rgb(22, 22, 21);
