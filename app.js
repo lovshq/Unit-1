@@ -288,17 +288,13 @@ const movie = {
 // console.log(...)
 
 
-
 // TODO 3: Print true/false — is runtime over 120?
 
 // console.log(...)
 
-
-
 // TODO 4: Add a `watched` property set to true
 
 // movie.??? = ???
-
 
 
 // TODO 5: Print each key-value pair
@@ -311,25 +307,6 @@ const movie = {
 // console.log("Rating:", ...)
 // console.log("Runtime:", ...)
 // console.log("Watched:", ...)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // project 
 
