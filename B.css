@@ -1,4 +1,10 @@
 .box {
     width: 600;
     height: 600;
+    margin: auto ; 
+}
+
+.card {
+    width: 25%;
+    height:auto;
 }
