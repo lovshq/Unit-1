@@ -1,18 +1,18 @@
 
-body {
+.body {
   font-size: 10px;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
-
-body {
-  background-color: rgb(32, 32, 32);
+.body { 
+  background-color: rgb(27, 26, 26);
   font-family: ui-sans-serif, system-ui, sans-serif;
   font-weight: 400;
   font-style: normal;
 }
-div {
+
+.div {
   height: 55rem;
   width: 30rem;
   margin: 0.5rem;
