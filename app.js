@@ -46,7 +46,7 @@ document.getElementById("btn").addEventListener("click", function(){
  getRGB();
 }); */
 
-function inject(){
+/* function inject(){
 const box = document.querySelector(".box");
 box.style.backgroundColor 
 const header = document.getElementById("color");
@@ -54,4 +54,26 @@ let x = 0;
 document.getElementById("btn").addEventListener("click", function(){
    console.log("clicked");
    x++;
-)}
+)} */
+function inject(item) {
+  const container = document.querySelector(".container");
+  container.insertAdjacentHTML(
+    "beforeend",
+    `<div class="card">
+        <h2 class="card-header">${item.name}</h2>
+        <img src="${item.img}" alt="" />
+        <p>filler filler filler</p>
+      </div> `,
+  );
+}
+const buttons = document.querySelectorAll("button");
+console.log(buttons);
+buttons.forEach ((button) => 
+   button.addEventListener("click", function (){
+      console.log("clicked");
+   }),
+);
+//make 1 html card, comment it out
+//select the container
+//forEach on items to inject to screen
+//select add cart buttons
