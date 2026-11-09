@@ -70,7 +70,7 @@ const buttons = document.querySelectorAll("button");
 console.log(buttons);
 buttons.forEach ((button) => 
    button.addEventListener("click", function (){
-      console.log("clicked");
+      console.log(event.target.closest(".card").getAttribute("data-item"));
    }),
 );
 //make 1 html card, comment it out
