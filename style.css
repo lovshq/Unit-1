@@ -64,7 +64,7 @@
   flex-direction: column;
   justify-content: space-around;
   background-color: #0f0f0f;
-  color: #faf6f6;
+  color: #fdfdfd;
   width: 15%;
   height: 35rem;
   /* margin is space between elements */
@@ -89,9 +89,9 @@
 .card-btn {
   height: 4rem;
   padding: 0 1.6rem;
-  background-color: #faf8f8;
+  background-color: #0f0f0f;
   color: #f5f0f0;
-  border: 1px solid #141414;
+  border: 1px solid #0f0f0f;
   border-radius: 0.4rem;
   font-size: 1.4rem;
   font-weight: 600px;
@@ -99,5 +99,5 @@
   transition: all 0.3s;
 }
 .card-btn:hover {
-  background-color: #f0ecec;
+  background-color: #f3f2f2;
 }
