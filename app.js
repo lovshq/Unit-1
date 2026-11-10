@@ -7,9 +7,6 @@
 
 /* 
 let array = [
-{ name: "porsche 911 gt3rs" , price: 224000 },
-{ name: "bmw m4g82" , price: 98000 },
-{ name: "chevrolet corvette c8" , price: 122510 }, 
 { name: "porsche he 718 boxster" , price: 80000 }, 
 { name: "toyota supra v6" , price: 61450 }, 
 { name: "koenigsegg jesko absolut" , price: 5500000 },
