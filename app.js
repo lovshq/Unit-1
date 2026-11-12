@@ -1,27 +1,7 @@
-// project 
-
-
-//kawasaki ninja zx - 6RR 
-//supra mk3 , mazda mx-5 , bmw m2, bmw m3, toyota gr 86, nissan 350x , 720s spider
-// 780s spider, Ninja h2r , bmw m8 , toyota ft1 , bmw z4 , bmw 1000 RR 
-
-/* 
-let array = [
-{ name: "porsche he 718 boxster" , price: 80000 }, 
-{ name: "toyota supra v6" , price: 61450 }, 
-{ name: "koenigsegg jesko absolut" , price: 5500000 },
-{ name: "supra mk3" , price: 30000 }, 
-{ name: "mclaren 720s spider" ,}
-
-] */
-
-
-/* console.log("test");
-
 let x = document.querySelector
 x.style.backgroundColor = "red";
 const header = document.querySelector;
-header.style.backgroundColor = "blue" */
+header.style.backgroundColor = "blue"
 
 // header.textContent = "Hello World";
 
