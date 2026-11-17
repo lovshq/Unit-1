@@ -6,7 +6,7 @@ header.style.backgroundColor = "blue"
 // header.textContent = "Hello World";
 
 
-/* function getRGB(){
+function getRGB(){
 let r = Math.floor(Math.random() * 256); 
 let g = Math.floor(Math.random() * 256); 
 let b = Math.floor(Math.random() * 256); 
@@ -21,9 +21,9 @@ document.getElementById("btn").addEventListener("click", function(){
    console.log("test");
    x++;
  getRGB();
-}); */
+}); 
 
-/* function inject(){
+function inject(){
 const box = document.querySelector(".box");
 box.style.backgroundColor 
 const header = document.getElementById("color");
@@ -31,4 +31,5 @@ let x = 0;
 document.getElementById("btn").addEventListener("click", function(){
    console.log("clicked");
    x++;
-)} */
+}
+)}
