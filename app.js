@@ -33,3 +33,12 @@ document.getElementById("btn").addEventListener("click", function(){
    x++;
 }
 )}
+
+let array = [
+   {
+      name: "BMW M4";
+      price: 80,000;
+      image: "BMW M4";
+   
+   }
+]
