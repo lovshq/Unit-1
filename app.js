@@ -35,10 +35,17 @@ document.getElementById("btn").addEventListener("click", function(){
 )}
 
 let array = [
-   {
-      name: "BMW M4";
-      price: 80,000;
-      image: "BMW M4";
-   
-   }
+   {name: "BMW M4", price: 80000, image: "BMW M4"},
+   {name: "Wine Red BMW M4", price: 80000, image: "red m4"},
+   {name: "Porsche 911 Gt3RS", price: 20000, image: "hanging Porsche"},
+   {name: "Porsche 918 Spyder", price: 5000000, image: "Porsche 918 Spyder"},
+   {name: "Chevrolet Corvette c8", price: 120000, image: "Corvette C8 Stingray"},
+   {name: "Toyota Supra MK4", price: 60000, image: "Toyota Supra MK4"}, 
+   {name: "Koenigsegg Agera", price:2450000, image: "Koenigsegg Agera"},
+   {name: "Mclaren 720s", price: 300000, image: "Mclaren 720s"},
+   {name: "Bugatti Chiron", price: 5900000, image: "Buggati Chiron"},
+   {name: "Corvette Stingray", price: 115000, image: "Corvette Stingray (C8)"}, 
+   {name: "Yamaha R6", price: 17000, image: "Yamaha R6" },
+   {name: "Yamaha R7", price: 9000, image: "Yamaha R7"},
+   {name: "BMW S10000rr", price: 18000, image: "bmw s10000rr"},
 ]
