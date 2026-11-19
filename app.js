@@ -23,16 +23,9 @@ document.getElementById("btn").addEventListener("click", function(){
  getRGB();
 }); 
 
-function inject(){
-const box = document.querySelector(".box");
-box.style.backgroundColor 
-const header = document.getElementById("color");
-let x = 0; 
-document.getElementById("btn").addEventListener("click", function(){
-   console.log("clicked");
-   x++;
-}
-)}
+
+
+
 
 let array = [
    {name: "BMW M4", price: 80000, image: "BMW M4"},
@@ -49,3 +42,22 @@ let array = [
    {name: "Yamaha R7", price: 9000, image: "Yamaha R7"},
    {name: "BMW S10000rr", price: 18000, image: "bmw s10000rr"},
 ]
+
+function inject() {
+   for (let item of array) {
+      const container = document.querySelector(".container");
+      container.insertAdjacentHTML(
+         "beforeend"
+         `<div class="card">
+        <h2>class="card-title"><(item.name)</h2>
+        <img 
+        class="card-img"
+        src="BMW M4.jpg"
+        alt="BMW M4"
+        <p class="desc">Grey, brand new,$5,000 discount</p>
+        <p class="price">"item-price"</p>
+        <button class="card-btn">Add To Cart</button>
+      </div>`
+      )
+   }
+}
