@@ -41,6 +41,9 @@ let array = [
    {name: "Yamaha R6", price: 17000, image: "Yamaha R6" },
    {name: "Yamaha R7", price: 9000, image: "Yamaha R7"},
    {name: "BMW S10000rr", price: 18000, image: "bmw s10000rr"},
+   {name: "Ferrari 2012 California", price: 100000, image: "Ferrari California"},
+   {name: "Ferrari SF90", price: 500000, image: "SF90"},
+   {name: "Ferrari LaFerrari", price: 1500000, image: "download"}
 ]
 
 function inject() {
@@ -49,13 +52,13 @@ function inject() {
       container.insertAdjacentHTML(
          "beforeend"
          `<div class="card">
-        <h2>class="card-title"><(item.name)</h2>
+        <h2>class="card-title"><($item.name)</h2>
         <img 
-        class="card-img"
+        class= $item.image
         src="BMW M4.jpg"
-        alt="BMW M4"
-        <p class="desc">Grey, brand new,$5,000 discount</p>
-        <p class="price">"item-price"</p>
+        alt=""
+        <p class="desc">($item.description)</p>
+        <p class="price">"item.price"</p>
         <button class="card-btn">Add To Cart</button>
       </div>`
       )
