@@ -43,7 +43,11 @@ let array = [
    {name: "BMW S10000rr", price: 18000, image: "bmw s10000rr"},
    {name: "Ferrari 2012 California", price: 100000, image: "Ferrari California"},
    {name: "Ferrari SF90", price: 500000, image: "SF90"},
-   {name: "Ferrari LaFerrari", price: 1500000, image: "download"}
+   {name: "Ferrari LaFerrari", price: 1500000, image: "download"},
+   {name: "Lamborghini Revuelto", price: 670000, image: "Lamborghini Revuelto"},
+   {name: "McLaren Senna", price: 3000000, image: "Mclaren Senna in Black"}, 
+   {name: "McLaren 765LT", price: 800000, image: "McLaren 765LT"},
+   {name: "Ferrari SF90 Stradale", price: 530000, image: "Ferrari SF90 Stradale"}
 ]
 
 function inject() {
