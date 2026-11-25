@@ -24,17 +24,35 @@ function inject(item) {
   const container = document.querySelector(".container");
   container.insertAdjacentHTML(
     "beforeend",
-    `<div class="card">
-        <h2 class="card-header">${item.name}</h2>
-        <img src="${item.img}" alt="" />
-        <p>filler filler filler</p>
+    ` <div class="card">
+        <h2 class="card-name"></h2>
+        <img 
+        class="card-image"
+        src="BMW M4.jpg"
+        alt="BMW M4">
+        <p class="desc">Grey, brand new,$5,000 discount</p>
+        <p class="price">"card-price"</p>
+        <button class="card-btn">Add To Cart</button>
       </div> `,
   );
-}
-const buttons = document.querySelectorAll("button");
+const cars = document.querySelector(".container");
+cars.forEach((button) =>
+   button
+
+);
+};
+
+//use for each to loop over array and run inject function inside foreach to put cards on screen
+//uncomment code below to add event listener to the code
+//create add to cart
+
+
+
+/* const buttons = document.querySelectorAll("button");
 console.log(buttons);
 buttons.forEach ((button) => 
    button.addEventListener("click", function (){
       console.log(event.target.closest(".card").getAttribute("data-item"));
+      inject(button);
    }),
-);
+); */
